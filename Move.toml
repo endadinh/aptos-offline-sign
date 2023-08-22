@@ -1,0 +1,15 @@
+[package]
+name = 'aptos_signature'
+version = '1.0.0'
+authors = []
+
+[addresses]
+aptos_signature = "b97365d79fdcf0f1d3b15c5b1113ea73a0552ead2a0ce11fccf19a3ab083b3b9"
+
+[dev-addresses]
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dev-dependencies]
